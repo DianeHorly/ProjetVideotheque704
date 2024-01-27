@@ -1,3 +1,4 @@
+<!-- serveur/templates/formulaire.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
 </head>
 <body>
     <h1>Formulaire Page</h1>
-    <form action="/submit" method="post">
+    <form action="{{ url_for('process_form') }}" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br>
 

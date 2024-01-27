@@ -1,0 +1,12 @@
+[
+  {
+    "titre": "Nom du Film",
+    "realisateur": ["Nom du Réalisateur"],
+    "annee_sortie": 2022,
+    "genre": ["Action", "thriler","Romance"],
+    "acteurs": ["Acteur 1", "Acteur 2"],
+    "note": 4.5,
+    "vu": true
+  }
+  
+]
